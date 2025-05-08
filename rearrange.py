@@ -1,10 +1,6 @@
 #!/usr/binenv python3
 import os
 import sys
-import shutil
-import socket
-import psutil
-
 
 def check_disk_full(disk, min_gb, min_percent):
     """Returns True if there isn't enough disk space, False otherwise."""
